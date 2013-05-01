@@ -1,0 +1,25 @@
+Here you'll find the code of QGrama3D. A Graph Manager in 3D written in C++ with Qt. There are a couple of functionalities but there are also some missing. For instance you can:
+
+- Load predefined model (Cube) defining the color, size, position and label.
+- Load an 3D model from a file (.obj or .off) defining also the color, position and label.
+- Move the objects in the 3D space. 
+- Create links between the objects in the scene. 
+- Remove links between objects.
+- Remove the objects from the scene.
+- Hide/show the links.
+- Hide/show the labels of the objects.
+- Set a color for the background.
+- Set a color for linking lines.
+
+- Save the created graph in an .xml which will also store the objects information so later you could just share your file without needing to also share the .obj or .off files.
+- Load an existing qgrama .xml file.
+
+As you can see this is just the base functionality. Some of the missing functions are:
+
+- Automatic ordering algorithms.
+- Load textures of the .obj files.
+- Load other formats besides OBJ and OFF.
+- Apply and show some others graph theory algorithms.
+
+--
+Alberto
